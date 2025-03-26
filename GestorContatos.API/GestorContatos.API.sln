@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorContatos.Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorContatos.Tests", "..\GestorContatos.Tests\GestorContatos.Tests.csproj", "{918C7D54-7FF3-42EA-8CC5-8E9AF79048BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorContatos.Application", "..\GestorContatos.Application\GestorContatos.Application.csproj", "{CF53D20E-A0C4-416A-AC6B-AC56D1E729B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorContatos.Application", "..\GestorContatos.Application\GestorContatos.Application.csproj", "{CF53D20E-A0C4-416A-AC6B-AC56D1E729B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorContatos.WorkerService", "..\GestorContatos.WorkerService\GestorContatos.WorkerService.csproj", "{36A67BC2-1A12-4F71-832E-86DAB93B30AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CF53D20E-A0C4-416A-AC6B-AC56D1E729B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF53D20E-A0C4-416A-AC6B-AC56D1E729B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF53D20E-A0C4-416A-AC6B-AC56D1E729B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A67BC2-1A12-4F71-832E-86DAB93B30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A67BC2-1A12-4F71-832E-86DAB93B30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A67BC2-1A12-4F71-832E-86DAB93B30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A67BC2-1A12-4F71-832E-86DAB93B30AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
