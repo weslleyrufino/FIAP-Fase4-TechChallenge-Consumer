@@ -36,7 +36,7 @@ services:
 networks:
   default:
     external:
-      name: fiap-fase2-techchallenge_default
+      name: fiap-fase4-techchallenge_default
 
 volumes:
   grafana-data:
