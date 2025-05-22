@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: consumer-config
+  labels:
+    app: consumer
+data:
+  MassTransit__Servidor: rabbitmq
+  MassTransit__Usuario: guest
+  MassTransit__Senha: guest
+  Logging__LogLevel__Default: Information
